@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "p8CA/ePqMw3OWwlEf2tUS08StIfxVOi+/da21DhLHuM=",
+  "Source": "Aula.AWS.Web",
+  "BasePath": "_content/Aula.AWS.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

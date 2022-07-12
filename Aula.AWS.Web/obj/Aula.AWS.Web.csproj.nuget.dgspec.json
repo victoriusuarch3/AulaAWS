@@ -45,6 +45,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "awssdk.s3": {
+              "target": "Package",
+              "version": "[3.7.9.23, )"
             }
           },
           "imports": [
