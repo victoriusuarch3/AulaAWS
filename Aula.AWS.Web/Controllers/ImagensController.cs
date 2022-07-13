@@ -12,6 +12,12 @@ namespace Aula.AWS.Web.Controllers
         {
             _amazonS3 = amazonS3;
         }
+        [HttpGet("bucket")]
+        public async Task<IActionResult> ListarBuckets()
+        {
+            var resposta = await _amazonS3.ListBucketsAsync();
+            return Ok(resposta);
+        }
 
         [HttpPost("bucket")]
         public async Task<IActionResult> CriarBucket(string nomeBucket)
@@ -19,5 +25,6 @@ namespace Aula.AWS.Web.Controllers
         var resposta = await _amazonS3.PutBucketAsync(nomeBucket);
         return Ok(resposta);
         }
+
     }
 }
