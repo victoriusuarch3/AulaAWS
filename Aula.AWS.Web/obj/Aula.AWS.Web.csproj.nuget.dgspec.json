@@ -42,9 +42,17 @@
               "target": "Package",
               "version": "[3.7.2, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "awssdk.rekognition": {
+              "target": "Package",
+              "version": "[3.7.8.33, )"
             },
             "awssdk.s3": {
               "target": "Package",

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula.AWS.Web", "Aula.AWS.Web\Aula.AWS.Web.csproj", "{2A946274-40D9-4A29-85F5-64A1EBE1D23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula.AWS.Lib", "Aula.AWS.Lib\Aula.AWS.Lib.csproj", "{39EF42D5-7F81-4C51-B29D-C1474A394F29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A946274-40D9-4A29-85F5-64A1EBE1D23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A946274-40D9-4A29-85F5-64A1EBE1D23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A946274-40D9-4A29-85F5-64A1EBE1D23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A946274-40D9-4A29-85F5-64A1EBE1D23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EF42D5-7F81-4C51-B29D-C1474A394F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EF42D5-7F81-4C51-B29D-C1474A394F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EF42D5-7F81-4C51-B29D-C1474A394F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EF42D5-7F81-4C51-B29D-C1474A394F29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
