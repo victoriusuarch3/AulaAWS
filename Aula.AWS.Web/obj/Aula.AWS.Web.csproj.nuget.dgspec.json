@@ -4,14 +4,14 @@
     "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj": {
+    "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj",
-        "projectName": "Aula.AWS.Web",
-        "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj",
+        "projectUniqueName": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj",
+        "projectName": "Aula.AWS.Lib",
+        "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj",
         "packagesPath": "C:\\Users\\YXTR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\obj\\",
+        "outputPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\YXTR\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,9 +38,87 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj",
+        "projectName": "Aula.AWS.Web",
+        "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj",
+        "packagesPath": "C:\\Users\\YXTR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YXTR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj": {
+                "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "AWSSDK.Extensions.NETCore.Setup": {
               "target": "Package",
               "version": "[3.7.2, )"
+            },
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

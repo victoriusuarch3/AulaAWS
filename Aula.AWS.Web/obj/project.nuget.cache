@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qp2z82dbKyuH2om667TEEKt5E/yuLfJNoBP/SK+3sMBGeMSHwCPH5+oSePj/0MlmPP2rtAHNEhp0zyrxQoNTtQ==",
+  "dgSpecHash": "Z7ROlEMZ2AwJJGgnDxYa0b05LW1kspJEoO+5ludRYvtBYeMSViRNrSk4D1T2AQ3UP7eOCoVpS2NYmzIUAKfxlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,10 @@
     "C:\\Users\\YXTR\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.2\\awssdk.extensions.netcore.setup.3.7.2.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\awssdk.rekognition\\3.7.8.33\\awssdk.rekognition.3.7.8.33.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\awssdk.s3\\3.7.9.23\\awssdk.s3.3.7.9.23.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\efcore.namingconventions\\6.0.0\\efcore.namingconventions.6.0.0.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.7\\microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
@@ -23,6 +27,8 @@
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\npgsql\\6.0.5\\npgsql.6.0.5.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.5\\npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
