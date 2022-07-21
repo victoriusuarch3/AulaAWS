@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Aula.AWS.Lib.Data
 {
-    public class Aula.AWS.Context : DbContext
+    public class AulaAWSContext : DbContext
     {
-        public ProjetoAWSContext(DbContextOptions options) : base(options)
+        public AulaAWSContext(DbContextOptions options) : base(options)
         {
 
         }
@@ -13,7 +13,7 @@ namespace Aula.AWS.Lib.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Usuario>().ToTable("usuarios_AWS");
-            modelBuilder.Entity<Usuario>().HasKey(key => key.Id);
+            modelBuilder.Entity<Usuario>().HasKey(key => key.id);
         }
         public DbSet<Usuario> Usuarios {get; set;}
     }

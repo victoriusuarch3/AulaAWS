@@ -20,8 +20,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Aula.AWS.Lib\Aula.AWS.Lib.csproj" />
-  </ItemGroup>
-
 </Project>

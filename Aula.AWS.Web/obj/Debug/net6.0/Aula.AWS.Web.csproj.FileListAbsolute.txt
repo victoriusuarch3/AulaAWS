@@ -28,3 +28,17 @@ C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\obj\Debug\net6.0\refint\A
 C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\obj\Debug\net6.0\Aula.AWS.Web.pdb
 C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\obj\Debug\net6.0\Aula.AWS.Web.genruntimeconfig.cache
 C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\obj\Debug\net6.0\ref\Aula.AWS.Web.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\AWSSDK.Rekognition.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\EFCore.NamingConventions.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Npgsql.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Aula.AWS.Lib.dll
+C:\Users\YXTR\Desktop\projetosOOP\AulaAWS\Aula.AWS.Web\bin\Debug\net6.0\Aula.AWS.Lib.pdb
