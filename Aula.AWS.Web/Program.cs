@@ -24,6 +24,7 @@ builder.Services.AddDefaultAWSOptions(awsOptions);
 builder.Services.AddAWSService<IAmazonS3>();
 builder.Services.AddAWSService<AmazonRekognitionClient>();
 
+builder.Services.AddScoped<IUsuarioRepositorio, IUsuarioRepositorio>();
 
 var app = builder.Build();
 

@@ -14,7 +14,7 @@ namespace Aula.AWS.Web.Controllers
 
         public UsuarioController(IUsuarioRepositorio repositorio)
         {
-            _repositorio = repositorio;
+            _repositorio = repositorio; 
         }
 
         [HttpGet]
@@ -26,12 +26,12 @@ namespace Aula.AWS.Web.Controllers
         public async Task<IActionResult>Deletar(int id)
         {
             await _repositorio.DeletarAsync(id);
-            return Ok("Usuario Deletado.");
+            return Ok("Usuario foi Deletado.");
         }
         [HttpPost]
-        public async Task<IActionResult>Adicionar()
+        public async Task<IActionResult>Adicionar(UsuarioDTO usuarioDTO)
         {
-            var usuario = new Usuario(  );
+            var usuario = new Usuario(usuarioDTO.id, usuarioDTO.Nome, usuarioDTO.Cpf, usuarioDTO.DataNascimento, usuarioDTO.Email, usuarioDTO.Senha, usuarioDTO.UrlImagemCadastro, usuarioDTO.DataCriacao);
 
             await _repositorio.AddAsync(usuario);
             return Ok(usuario);
