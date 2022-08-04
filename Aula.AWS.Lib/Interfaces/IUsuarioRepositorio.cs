@@ -4,7 +4,6 @@ namespace Aula.AWS.Lib.Interfaces
 {
     public interface IUsuarioRepositorio : IBaseRepositorio<Usuario>
     {
-       Task AlteracaoSenhaAsync(int id, string senha);
-       Task AddAsync();
+       Task AlteracaoSenha(int id, string senha);
     }
 }

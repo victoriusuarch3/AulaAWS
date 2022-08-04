@@ -1,4 +1,4 @@
-namespace Aula.AWS.Web.DTOs
+namespace Aula.AWS.Application.DTOs
 {
     public class ModelBaseDTO
     {

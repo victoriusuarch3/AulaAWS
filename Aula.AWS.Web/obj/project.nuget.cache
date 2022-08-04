@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7ROlEMZ2AwJJGgnDxYa0b05LW1kspJEoO+5ludRYvtBYeMSViRNrSk4D1T2AQ3UP7eOCoVpS2NYmzIUAKfxlQ==",
+  "dgSpecHash": "mk2AACm82Dkn28IbueSo4rS8QS8AH2/xguN40Mcj+yWxRbJmC8GGWRXijq1EB23KsZiXlN10luKuKrB8W/X0QA==",
   "success": true,
   "projectFilePath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,12 @@
     "C:\\Users\\YXTR\\.nuget\\packages\\awssdk.rekognition\\3.7.8.33\\awssdk.rekognition.3.7.8.33.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\awssdk.s3\\3.7.9.23\\awssdk.s3.3.7.9.23.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\efcore.namingconventions\\6.0.0\\efcore.namingconventions.6.0.0.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.7\\microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
@@ -24,8 +28,10 @@
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
@@ -35,9 +41,11 @@
     "C:\\Users\\YXTR\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\YXTR\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\YXTR\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\YXTR\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\YXTR\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,6 +4,68 @@
     "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Web\\Aula.AWS.Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Application\\Aula.AWS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Application\\Aula.AWS.Application.csproj",
+        "projectName": "Aula.AWS.Application",
+        "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Application\\Aula.AWS.Application.csproj",
+        "packagesPath": "C:\\Users\\YXTR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YXTR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj": {
+                "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -88,8 +150,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj": {
-                "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Lib\\Aula.AWS.Lib.csproj"
+              "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Application\\Aula.AWS.Application.csproj": {
+                "projectPath": "C:\\Users\\YXTR\\Desktop\\projetosOOP\\AulaAWS\\Aula.AWS.Application\\Aula.AWS.Application.csproj"
               }
             }
           }
