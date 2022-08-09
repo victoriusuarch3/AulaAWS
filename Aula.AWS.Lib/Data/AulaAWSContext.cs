@@ -13,7 +13,7 @@ namespace Aula.AWS.Lib.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Usuario>().ToTable("usuarios_AWS");
-            modelBuilder.Entity<Usuario>().HasKey(key => key.id);
+            modelBuilder.Entity<Usuario>().HasKey(key => key.Id);
         }
         public DbSet<Usuario> Usuarios {get; set;}
     }

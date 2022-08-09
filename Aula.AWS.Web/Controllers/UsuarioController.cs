@@ -119,9 +119,9 @@ namespace Aula.AWS.Web.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult>Alterar(int  id, string senha)
+        public async Task<IActionResult>AlterandoSenha(int  id, string senha)
         {
-            await  _repositorio.AlteracaoSenha(id, senha);
+            await  _repositorio.MudancaSenha(id, senha);
             return Ok("Alteração de senha concluida.");
         }
         

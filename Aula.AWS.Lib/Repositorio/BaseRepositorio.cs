@@ -18,18 +18,18 @@ namespace Aula.AWS.Lib.Repositorio
         {
             return await _dbset.AsNoTracking().ToListAsync();
         }
-        public async Task<T> PesquisaAsyncId(int id)
+        public async Task<T> PesquisaAsyncId(Guid id)
         {
-            return await _dbset.AsNoTracking().FirstAsync(x => x.id == id);
+            return await _dbset.AsNoTracking().FirstAsync(x => x.Id == id);
         }
         public async Task AddAsync(T item)
         {
             await _dbset.AddAsync(item);
             await _context.SaveChangesAsync();
         }
-        public async Task DeletarAsync(int id)
+        public async Task DeletarAsync(Guid id)
         {
-            var item = await _dbset.AsNoTracking().FirstAsync(x => x.id == id);
+            var item = await _dbset.AsNoTracking().FirstAsync(x => x.Id == id);
             _dbset.Remove(item);
             await _context.SaveChangesAsync();
         }
