@@ -4,7 +4,7 @@ using Aula.AWS.Lib.Models;
 
 namespace Aula.AWS.Lib.Repositorio
 {
-    public class UsuarioRepositorio : BaseRepositorio<Usuario>, IUsuarioRepositorio
+    public class UsuarioRepositorio : BaseRepositorio<Usuario>
     {
         public UsuarioRepositorio(AulaAWSContext context) : base(context, context.Usuarios)
         {
